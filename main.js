@@ -6,7 +6,14 @@ function tocaSomPom(){
 
 // Chamando a função:
 
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+// document.querySelector('.tecla_pom').onclick = tocaSomPom;
+
+// ---------------------------------------------------------
+
+
+
+const listaDeTeclas = document.querySelectorAll('.tecla');
+    listaDeTeclas[0].onclick = tocaSomPom;
 
 
 
